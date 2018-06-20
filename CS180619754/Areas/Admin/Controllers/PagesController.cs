@@ -24,11 +24,12 @@ namespace CS180619754.Areas.Admin.Controllers
             }
             //Return view with list
             return View(pagesList);
+        }
 
-            public ActionResult AddPage()
-            {
-                return View();
-            }
+        // GET: Admin/Pages/AddPage
+        public ActionResult AddPage()
+        {
+            return View();
         }
     }
 }
