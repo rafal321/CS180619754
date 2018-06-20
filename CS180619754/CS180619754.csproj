@@ -160,9 +160,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\CS180619754.mdf" />
-    <Content Include="App_Data\CS180619754_log.ldf">
-      <DependentUpon>CS180619754.mdf</DependentUpon>
+    <Content Include="App_Data\CS180619754x.mdf" />
+    <Content Include="App_Data\CS180619754x_log.ldf">
+      <DependentUpon>CS180619754x.mdf</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />

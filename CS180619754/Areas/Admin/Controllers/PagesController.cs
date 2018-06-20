@@ -22,10 +22,13 @@ namespace CS180619754.Areas.Admin.Controllers
                 //Initialize the list
                 pagesList = db.Pages.ToArray().OrderBy(x => x.Sorting).Select(x => new PageVM(x)).ToList();
             }
-
             //Return view with list
-
             return View(pagesList);
+
+            public ActionResult AddPage()
+            {
+                return View();
+            }
         }
     }
 }
